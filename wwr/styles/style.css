@@ -1,0 +1,39 @@
+body {
+    text-align:center;
+   }
+   <body>
+    <div id="content" margin:0 auto;>
+        <header>
+        </footer>
+    </div> 
+</body> 
+#background {
+    height: 725px;
+}
+body {
+    background-color: #fcfbfb; 
+}
+header {
+    background-color:rgba(148, 186, 121, 0.7);
+}
+nav a:hover {
+    background-color: black;
+}
+nav a:hover {
+    background-color: rgb(138, 173, 112);
+    color: #ffffff;
+} 
+.icon {
+    width: 80px;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+}  
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}

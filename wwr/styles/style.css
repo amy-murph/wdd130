@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik+Dirt&display=swap');
-body {
-    text-align:center;
-   } 
-#background {
-    height: 725px;
-}
+
 body {
     background-color: #3a445d;
     font-family: "Rubik+Dirt", Helvetica, sans-serif;
@@ -17,7 +12,22 @@ h2 {
 }
 header {
     background-color:rgb(148, 186, 121, 0.7);
-    
+}
+.logo{
+    width: 80px;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 35px;
+}  
+nav a:hover {
+    background-color: rgb(138, 173, 112);
+    color: #ffffff;
+} 
+#hero-msg {
+    text-align: center;
 }
 .home-title{
     color: white;
@@ -25,37 +35,26 @@ header {
     font-size: 2em;
     margin-top: 10px;
 }
-nav a:hover {
-    background-color: rgb(138, 173, 112);
-    color: #ffffff;
-} 
+main section img {
+    box-sizing:border-box;
+}
+.card-img {
+    border: 10px solid cornsilk;
+}
+.rivers-card, .camping-card, .rapids-card{ 
+    text-align: center;
+}
 .icon {
     width: 80px;
 }
-nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}  
-footer p {
-    font-size: 1.2em;
-}    
-footer p a:hover {
-    text-decoration: underline;
-}
-.home-title {
-    font-family: 'Rubik Dirt', 'Oswald', sans-serif;
-    font-size: 2em;
+#background{
+    background-color: cornsilk;
+    height: 725px;
 }
 .msg {
+    text-align: center;
     background-color: #3a445d;
     line-height: 1.5em;
-}
-nav a {
-    text-decoration: none;
-    color: #fcfbfb;
-    text-align: center;
-    padding: 35px;
 }
 .book, .join {
     background-color: #3a445d;
@@ -66,9 +65,12 @@ nav a {
     margin-top: 50px;
     border-radius: 5px;
 }
-.card-img {
-    border: 10px solid #fcfbfb;
+footer {
+    background-color: rgb(138, 173, 112);
 }
-main section img {
-    box-sizing:border-box;
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
 }

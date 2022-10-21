@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Rubik+Dirt&display=swap');
 body {
     text-align:center;
    } 
@@ -5,10 +6,19 @@ body {
     height: 725px;
 }
 body {
-    background-color: #fcfbfb; 
+    background-color: #3a445d 
+    font-family: "Rubik+Dirt", Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 header {
-    background-color:rgba(148, 186, 121, 0.7);
+    background-color:rgb(148, 186, 121, 0.7);
+    .home-title{
+        color: white 
+        font-family: "rubik+dirt";
+        <font-size>: 2em;
+        <margin-top>: 10px;
 }
 nav a:hover {
     background-color: black;
@@ -30,4 +40,12 @@ footer p {
 }    
 footer p a:hover {
     text-decoration: underline;
+}
+.home-title {
+    font-family: 'Rubik Dirt', 'Oswald', sans-serif;
+    font-size: 2em;
+}
+.msg {
+    background-color: #3a445d
+    line-height: 1.5em;
 }

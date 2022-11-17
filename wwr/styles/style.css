@@ -164,7 +164,7 @@ footer p a:hover {
     text-decoration: underline;
 }
 #hero {
-    display: grid;
+    display: block;
     height: auto;
 }
 

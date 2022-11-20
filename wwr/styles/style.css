@@ -169,10 +169,45 @@ footer p a:hover {
 }
 
 /* Second Page!!!!!*/
-body {
-display: grid;
-
+.home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
 }
+.rivers-main{
+    display: grid;
+    grid-template-columns: (10, 1fr);
+    grid-template-rows: max-content;
+}
+.page-description{
+    grid-column: ;
+    grid-row: 1/2;
+    text-align: center;
+}
+.north-idaho-river, .salmon-river, .selway-river{
+    color: whitesmoke;
+    grid-column: 1/3;
+    grid-row: 2/3;
+    z-index: 1;
+}
+.north-idaho-river span, .salmon-river span, .selway-river span{
+    background-color: #45503e;
+    padding-left: 10px;    
+    padding-right: 10px; 
+}
+.north-idaho-river-pic, .salmon-river-pic, .selway-river-pic{
+    text-align: center;
+    margin: 200px 0;
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 25px;
+    grid-column: 3/6;
+    grid-row: 1/3;
+}
+
+
+
+
 
 
 

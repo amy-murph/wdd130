@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Shrikhand&display=swap');
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color:  #F07159;
+  --secondary-color:#FBC88D;
+  --accent1-color:  #80A7d5;
+  --accent2-color:  #DECC61;
+  --accent3-color:  #C7BBA1;
+  --accent4-color:  #fde5a2;
+/*fonts*/
+  --heading-font: "Shrik hand";
+  --paragraph-font: Josefin Sans, Helvetica, sans-serif;
+/* color of fonts */
+  --headline-color-on-white: #F07159;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #bcd3e4; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #C7BBA1  ;
+  --nav-link-color: #F07159;
+  --nav-background-color: #DECC61;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #eddd88;
+}
+
+.home-main-title{
+    color:#F07159;
+    text-align: center;
+}
+body {
+    background-color:#ffefc2;
+    font-size: 22px;
+
+}
+header {
+    background-color:#ffefc2;
+    display: grid;
+    grid-template-columns: 200px auto;
+    grid-template-rows: 100px;
+}
+h2{
+    font-family: Josefin Sans;
+    font-size: 20px;
+    padding-top: 30px;
+}
+h3{
+    font-family: Josefin Sans;
+    font-size: 20px;   
+}
+.logo{
+    width: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.about-me-title{
+    color:#bcd3e4;
+}
+.idea-main-title{
+    color:#DECC61;
+}
+nav{
+    background-color: var(--nav-background-color);
+    line-height: 3em;
+    text-align: center;
+    font-size: 1em;
+}
+nav{
+    list-style-type: none;
+    display: flex;
+  
+}
+nav a {
+    padding:1em;
+    min-width: 100px;
+    text-decoration: none;
+    padding: 10px auto;
+    
+}
+nav a:link, nav a:visited {
+  color: var(--nav-link-color);
+}
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+.page1{
+    width: 80%;
+    padding-left: 200px;
+    padding-top: 200px;
+}
+.page1-2{
+    width: 80%;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.home-second-paragraph{
+    color:#F07159;
+}

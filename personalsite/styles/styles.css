@@ -22,6 +22,11 @@
   --nav-hover-background-color: #eddd88;
 }
 
+.logo{
+    width: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
 .home-main-title{
     color:#F07159;
     text-align: center;
@@ -46,18 +51,14 @@ h1{
 h2{
     font-family: Josefin Sans;
     font-size: 20px;
-    padding-top: 30px;
+    padding-top: 20px;
     color: #F07159
 }
 h3{
     font-family: Josefin Sans;
     font-size: 20px;   
 }
-.logo{
-    width: 200px;
-    padding-top: 10px;
-    padding-left: 10px;
-}
+
 
 .about-me-title{
     color:#bcd3e4;
@@ -92,7 +93,7 @@ nav a:hover {
 }
 
 .page1{
-    width: 900%;
+    width: 700%;
     padding-left: 20px;
     padding-top: 200px;
 }
@@ -111,6 +112,9 @@ nav a:hover {
     padding-left: 100px;
     padding-right: 80px;
     text-align: center;
+}
+.social{
+    padding: 100px;
 }
 
 /* form 2 */
@@ -228,4 +232,34 @@ input[type=submit]:hover {
 }
 .moveDown {
     margin-top: 3em;
+}
+
+/* second page */
+body{
+    display: grid;
+    
+}
+.idea-main-title{
+    color:#bcd3e4;
+    text-align: center;
+}
+h1{
+    color: #F07159;
+   
+    
+}
+h4{
+
+    text-align: center;
+   
+}
+.page2{
+    width: 90%;
+    padding-left: 70px;
+   
+}
+.page2-2{
+    width:80%;
+    padding-left: 130px;
+    padding-top: 100px;
 }

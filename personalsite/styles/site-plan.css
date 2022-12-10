@@ -5,10 +5,10 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color:  #F07159;
-  --secondary-color:#FBC88D;
+  --secondary-color:#fde5a2;
   --accent1-color:  #80A7d5;
   --accent2-color:  #DECC61;
-  --accent3-color:  #C7BBA1;
+  --accent3-color:  #fde5a2;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Shrik hand";
